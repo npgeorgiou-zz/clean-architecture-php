@@ -1,0 +1,26 @@
+{
+    "name": "Umbrella",
+    "type": "project",
+    "description": "Foo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikos Papageorgiou",
+            "email": "nikolaos.konstantinos.pap@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Umbrella\\": "src/"
+        },
+        "files": [
+            "src/core/cases/all.php"
+        ]
+    }
+}
