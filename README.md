@@ -1,7 +1,7 @@
 # Architecture:
 An example of how to implement the Clean Architecture ideas in PHP.
 
-Decided not to use a framework as I dont want all this overhead to choke and hide the spirit if the system.
+Decided not to use a framework as I dont want all this overhead to choke and hide the spirit of the system.
 Instead, a very lightweight web and console I/O mechanism was made, as well as a very lightweight cache and logger (filesystem).
 This also shows how the core of the system is unaffected by these particularities as it works with I/O agnostic data to protect
 it from I/O details, and Interfaces to protect it from low-level implementation details.
